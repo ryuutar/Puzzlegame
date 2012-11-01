@@ -24,6 +24,7 @@
 		15AA9E83163CD82200F216F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AA9E5B163CD82000F216F4 /* Foundation.framework */; };
 		15AA9E8B163CD82200F216F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15AA9E89163CD82200F216F4 /* InfoPlist.strings */; };
 		15AA9E8E163CD82200F216F4 /* PuzzlegameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AA9E8D163CD82200F216F4 /* PuzzlegameTests.m */; };
+		15AA9E99163CF70F00F216F4 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AA9E98163CF70F00F216F4 /* MyImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		15AA9E8A163CD82200F216F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15AA9E8C163CD82200F216F4 /* PuzzlegameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuzzlegameTests.h; sourceTree = "<group>"; };
 		15AA9E8D163CD82200F216F4 /* PuzzlegameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzlegameTests.m; sourceTree = "<group>"; };
+		15AA9E97163CF70F00F216F4 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		15AA9E98163CF70F00F216F4 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				15AA9E68163CD82000F216F4 /* AppDelegate.h */,
+				15AA9E97163CF70F00F216F4 /* MyImageView.h */,
+				15AA9E98163CF70F00F216F4 /* MyImageView.m */,
 				15AA9E69163CD82000F216F4 /* AppDelegate.m */,
 				15AA9E71163CD82100F216F4 /* MainStoryboard_iPhone.storyboard */,
 				15AA9E74163CD82100F216F4 /* MainStoryboard_iPad.storyboard */,
@@ -277,6 +282,7 @@
 				15AA9E66163CD82000F216F4 /* main.m in Sources */,
 				15AA9E6A163CD82000F216F4 /* AppDelegate.m in Sources */,
 				15AA9E79163CD82100F216F4 /* ViewController.m in Sources */,
+				15AA9E99163CF70F00F216F4 /* MyImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
